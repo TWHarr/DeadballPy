@@ -131,6 +131,9 @@ class Team(object):
         a.append(rn.choice(sp))
         return a
 
+    def printPlayers(self):
+        for item in self.players:
+            print(item)
 
 def createPlayer(pos):
     """ determine which class a player should be """
