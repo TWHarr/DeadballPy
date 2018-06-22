@@ -135,6 +135,10 @@ class Team(object):
         for item in self.players:
             print(item)
 
+    def printLineup(self):
+        for item in self.lineup:
+            print(item)
+
 def createPlayer(pos):
     """ determine which class a player should be """
     if pos == 'RP' or pos == 'SP':
