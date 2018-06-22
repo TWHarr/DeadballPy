@@ -1,4 +1,5 @@
 import settings
+import atbat as ab
 
 print('\n\nCreating Starter')
 testStarter = settings.Starter('2B')
@@ -30,3 +31,6 @@ print(testTeamB.printLineup())
 
 settings.startingLineups(testTeamA)
 settings.startingLineups(testTeamB)
+
+for batter in testTeamA.lineup:
+    ab.atBat(testTeamB.lineup[8], batter)
