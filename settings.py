@@ -225,6 +225,7 @@ def selectTeams():
         b = rn.choice(teamNames)
     return Team(a), Team(b)
 
+#[bases for hitter, desc, bases for runners]
 hitTable = {
     1: [1, 'N/A', 1],
     2: [1, 'N/A', 1],
