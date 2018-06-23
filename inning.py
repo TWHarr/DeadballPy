@@ -1,6 +1,6 @@
 import atbat as ab
 import settings
-
+'''
 def process(a, state, battingTeam):
     """ return: [out, hit, extra base, runners advance, bb, mss, batter]"""
     if a[0] == 1:
@@ -28,7 +28,7 @@ def process(a, state, battingTeam):
         if a[1] == 'bb':
 
         else:
-
+'''
 
 def inning(inningNumber, awayLineup, awayBatter, homeLineup, homeBatter):
 
