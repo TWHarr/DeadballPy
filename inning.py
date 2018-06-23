@@ -32,9 +32,9 @@ def process(a, state, battingTeam):
 
 def inning(inningNumber, awayLineup, awayBatter, homeLineup, homeBatter):
 
-    score = Score()
-    awayState = BaseState()
-    homeState = BaseState()
+    score = settings.Score()
+    awayState = settings.BaseState()
+    homeState = settings.BaseState()
 
     print("\nTop of Inning %s ++++++++++++++++++++++++++" % inningNumber)
     awayBatter = awayBatter
