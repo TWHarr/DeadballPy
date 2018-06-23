@@ -298,20 +298,3 @@ def startingLineups(team):
     print("\nStarting lineup for the %s:" % team.name)
     for player, value in enumerate(team.lineup, 1):
         print(player, value)
-
-
-class BaseState(object):
-    """docstring for baseState."""
-    def __init__(self):
-        self.bases = {
-            'First': [0, ''],
-            'Second': [0, ''],
-            'Third': [0, '']
-        }
-
-
-class Score(object):
-    """docstring for Score."""
-    def __init__(self):
-        self.away = 0
-        self.home = 0
