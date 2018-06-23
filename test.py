@@ -35,5 +35,3 @@ settings.startingLineups(testTeamB)
 
 for batter in testTeamA.lineup:
     ab.atBat(testTeamB.lineup[8], batter)
-
-inn.inning(1, testTeamA.lineup, 0, testTeamB.lineup, 0)
